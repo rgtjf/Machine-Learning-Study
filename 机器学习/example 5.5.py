@@ -1,4 +1,4 @@
-ï»¿import math
+import math
 import random
 import sys
 reload(sys)
@@ -11,7 +11,7 @@ def load_data(file_name):
 	for line in data:
 		line = line.strip().split(',')
 		X.append(line[1:-1])
-		if line[-1] == 'ÊÇ':
+		if line[-1] == 'æ˜¯':
 			Y.append(1.0)
 		else:
 			Y.append(0.0)
